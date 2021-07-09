@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <!--Animate css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <!--   ------------------------------------------------------Cabecera de la página-------------------------------------------------------   -->
+
+    <header class="cabecera">
+      <img
+        class="cabecera-menu-desplegable"
+        src="img/menudesplegable.svg"
+        alt="Menú desplegable de la landing page"
+      />
+      <div class="container">
+        <div class="cabecera-superior">
+          <a href="./index.html"
+            ><img src="img/logo.svg" alt="Logo de la empresa"
+          /></a>
+          <div class="cabecera-superior-iconos iconos-hide">
+            <a href="#"
+              ><img src="img/logo-facebook.svg" alt="Icono de facebook"
+            /></a>
+            <a href=""
+              ><img src="img/logo-instagtam.svg" alt="Icono de instagram"
+            /></a>
+            <a href="">
+              <img src="img/logo-twitter.svg" alt="Icono de twitter" />
+            </a>
+            <a href=""
+              ><img src="img/logo-tik-tok.svg" alt="Logo de tik tok"
+            /></a>
+          </div>
+        </div>
+
+        <div class="cabecera-inferior">
+          <div class="cabecera-inferior-texto">
+            <h1 class="animate__animated animate__backInDown">
+              Lorem ipsum <br />dolor , sit amet <br />consectetur
+              <br />adipisicing elit.
+            </h1>
+            <p class="animate__animated animate__backInLeft animate__delay-1s">
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Commodi excepturi illo <br />
+              nam voluptates aperiam n!
+            </p>
+            <a
+              class="
+                boton
+                cabecera-inferior-btn-ingresar
+                animate__animated animate__backInRight animate__delay-2s
+              "
+              href="#"
+              >Ingresar</a
+            >
+          </div>
+          <div
+            class="
+              cabecera-inferior-imagen
+              animate__animated animate__fadeIn animate__delay-1s
+            "
+          >
+            <img
+              class="header-imagen-inferior"
+              src="img/imagen-header-min.png"
+              alt="Imagen de un joven en una computadora"
+            />
+          </div>
+        </div>
+
+        <a href="#principal">
+          <img
+            class="cabecera-flecha flecha-hide"
+            src="img/flecha-next.svg"
+            alt="Imagen de flecha para la siguiente página"
+          />
+        </a>
+      </div>
+    </header>
+
+    <!--  -------------------------------------------Sección principal Portfolio/Algunos trabajos------------------------------------------  -->
+    <main class="principal" id="principal">
+      <div class="container">
+        <div class="principal-texto-superior cards">
+          <p>Portfolio</p>
+          <h2>Algunos trabajos</h2>
+        </div>
+
+        <section class="cards">
+          <!--Card izquierda-->
+          <div class="item imagen-izquierda">
+            <a data-lightbox="roadtrip" href="img/imagen-galeria-1@2x-min.png"
+              ><img
+                src="img/imagen-galeria-1-min.png "
+                alt="Imagen de una mujer haciendo ejercicio"
+            /></a>
+            <div class="principal-texto-izquierda">
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ipsam facere dignissimos molestiae tempore unde.
+              </p>
+              <a class="boton" href="#">Ingresar</a>
+            </div>
+          </div>
+
+          <!--Card central-->
+          <div class="item imagen-centro">
+            <a data-lightbox="roadtrip" href="img/imagen-galeria-2@2x-min.png"
+              ><img
+                src="img/imagen-galeria-2-min.png"
+                alt="Imagen de una mujer haciendo ejercicio"
+            /></a>
+            <div class="principal-texto-centro">
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ipsam facere dignissimos molestiae tempore unde.
+              </p>
+              <a class="boton" href="#">Ingresar</a>
+            </div>
+          </div>
+
+          <!--Card derecha-->
+          <div class="item imagen-derecha">
+            <a data-lightbox="roadtrip" href="img/imagen-galeria-3@2x-min.png"
+              ><img
+                src="img/imagen-galeria-3-min.png "
+                alt="Imagen de una mujer haciendo ejercicio"
+            /></a>
+            <div class="principal-texto-derecha">
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci ipsam facere dignissimos molestiae tempore unde.
+              </p>
+              <a class="boton" href="#">Ingresar</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!--|----------------------Sección informacion: formulario + mapa----------------------------|-->
+    <section class="informacion">
+      <div class="container">
+        <h2 class="contactanos">Contáctanos</h2>
+        <div class="container-informacion">
+          <div class="informacion-formulario col-md-4" id="info-formulario">
+            <p class="hide">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h2 class="mensaje-formulario hide" id="titulo-mostrar">
+              Gracias por contactarte con nosotros
+            </h2>
+            <p class="hide" id="parrafo-mostrar">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio laudantium fugit atque explicabo optio?
+            </p>
+
+            <form id="hide-formulario">
+              <label for="nombre_formulario" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre_formulario"
+                name="nombre"
+                placeholder="Ingrese su nombre"
+                required
+              />
+              <label for="mail_formulario" class="form-label">Mail</label>
+              <input
+                type="text"
+                class="form-control"
+                id="mail_formulario"
+                name="mail"
+                placeholder="Ingrese su mail"
+                required
+              />
+              <label for="motivo_formulario" class="form-label">Motivo</label>
+              <input
+                type="text"
+                class="form-control"
+                id="motivo_formulario"
+                name="motivo"
+                placeholder="Ingrese su motivo"
+                required
+              />
+              <label for="mensaje_formulario" class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="mensaje_formulario"
+                name="mensaje"
+                placeholder="Ingrese su mensaje"
+                required
+              ></textarea>
+              <button
+                type="submit"
+                class="boton btn-formulario"
+                id="btn-formulario"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+          <!--Mapa con la ubicación-->
+          <div class="informacion-mapa">
+            <h2 class="mapa">Mapa</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.39707532423!2d-58.57338494756603!3d-34.615461116377574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1625708350145!5m2!1ses-419!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+            <p class="texto-mapa">
+              Lorem ipsum dolor sit amet consectetur, dipisicing elit. <br />
+              Iste beatae libero magni corporis soluta consec bla ba bla <br />
+              lalala lorem bla bla bla
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--|----------------------------------Sección del footer de la landing page----------------------------------------------|-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-texto">
+          <div class="footer-texto-izquierda">
+            <h4>Logo</h4>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="footer-texto-centro">
+            <h4>Empresa</h4>
+            <p>
+              Prueba 12345-Caba, Argentina <br />hello@prueba.com.ar <br />+54
+              11 4829-38293
+            </p>
+          </div>
+          <div class="footer-texto-derecha">
+            <h4>Seguinos</h4>
+            <div class="cabecera-superior-iconos">
+              <a href="#"
+                ><img src="img/logo-facebook.svg" alt="Icono de facebook"
+              /></a>
+              <a href=""
+                ><img src="img/logo-instagtam.svg" alt="Icono de instagram"
+              /></a>
+              <a href="">
+                <img src="img/logo-twitter.svg" alt="Icono de twitter" />
+              </a>
+              <a href=""
+                ><img src="img/logo-tik-tok.svg" alt="Logo de tik tok"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-reglon">
+        <p class="reglon ocultar">
+          ______________________________________________________________________________________________________
+        </p>
+        <p class="reglon-hide">
+          ________________________________________________________
+        </p>
+      </div>
+      <p class="parrafo-copyright"><span>&copy;</span> Sitio de prueba 2021</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
