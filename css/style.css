@@ -251,6 +251,15 @@ p {
   display: none;
 }
 
+.alerta {
+  border: 2px solid rgb(241, 51, 51);
+  border-radius: 7px;
+  background-color: rgb(241, 51, 51);
+  margin-top: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /*-----------------------Media queries / Responsive design---------------------*/
 
 /* Para pantallas < 414px*/
